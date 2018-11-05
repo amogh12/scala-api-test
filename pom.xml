@@ -29,6 +29,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.0.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>com.softwaremill.sttp</groupId>
             <artifactId>core_2.12</artifactId>
             <version>${softmill.version}</version>
